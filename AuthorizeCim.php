@@ -1,6 +1,10 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
-
 /**
+	By: 
+  Spicer Matthews <spicer@cloudmanic.com>
+  Cloudmanic Labs, LLC
+  http://www.cloudmanic.com
+  
 	Todo:
 		- Better library function argument validation.
 		- Better Documention
