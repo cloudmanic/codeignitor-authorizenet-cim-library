@@ -1,0 +1,46 @@
+By: 
+	Spicer Matthews <spicer@cloudmanic.com>
+	Cloudmanic Labs, LLC
+	http://www.cloudmanic.com
+	
+About:
+	This is a library for the php framework Codeignitor http://codeigniter.com to make API calls to the Authorize.net CIM interface.
+	This is free to use. It would be nice if you make updates if you submitted them.
+
+Files:
+	- example.php -> Controller file used to test this library. Good place to start, and some good commits to help understand.
+	- authorizenet.php -> Config file for the library.
+	- AuthorizeCim.php -> Main library file.
+	- README -> This File.
+	- CIM_XML_guide.pdf -> Authorize.net API document this library is based on.
+
+Install:
+	- Copy AuthorizeCim.php to /system/application/libraries/
+	- Copy authorizenet.php to /private/application/config/
+	- Edit vars in authorizenet.php
+	
+Usage:
+	- In a controller $this->load->library('AuthorizeCim')
+	
+Functions:
+	$this->authorizecim->get_customers()
+	$this->authorizecim->submit_profile(yourcustomerid, description, email)
+	$this->authorizecim->update_profile(profileid, yourcustomerid, description, email)
+	$this->authorizecim->submit_paymentprofile(profileid, creditcardnumber, expire, creditcardcode)
+	$this->authorizecim->update_paymentprofile(profileid, paymentid, creditcardnumber, expire, creditcardcode)
+	$this->authorizecim->submit_transaction_authonly(profileid, paymentid, amount)
+	$this->authorizecim->submit_transaction_authcap(profileid, paymentid, amount)
+	$this->authorizecim->submit_transaction_refund(profileid, paymentid, amount, transactionid)
+	$this->authorizecim->get_customer(profileid)
+	$this->authorizecim->delete_customer(profileid)
+
+Still Todo (9/22/2009):
+	- Better library function argument validation.
+	- Better Documention
+	- Better function defaults
+	- Finish providing full support for the API defined in CIM_XML_guide.pdf
+			Missing -> (createCustomerShippingRequest, deleteCustomerShippingRequest, updateCustomerShippingRequest,
+									deleteCustomerPaymentProfileRequest, validateCustomerPaymentProfileRequest, 
+									getCustomerPaymentProfileRequest, getCustomerShippingAddressRequest, validateCustomerPaymentProfileRequest)
+	- Some API calls are missing some optional data sets.
+	- Complete all the different Transaction calls. Only have done; Auth, Auth & Capture, Refund
