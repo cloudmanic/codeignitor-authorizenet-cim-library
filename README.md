@@ -1,14 +1,14 @@
 ## Author(s) 
 	Spicer Matthews <spicer@cloudmanic.com>
 	Cloudmanic Labs, LLC
-	[http://www.cloudmanic.com](http://www.cloudmanic.com)
+	http://www.cloudmanic.com
 	
 	Based On Work From: 
 		- John Conde <johnny@johnconde.net>
-		- [http://www.communitymx.com/content/article.cfm?page=4&cid=FDB14](http://www.communitymx.com/content/article.cfm?page=4&cid=FDB14)
+		- http://www.communitymx.com/content/article.cfm?page=4&cid=FDB14
 	
 ## About
-	This is a library for the php framework Codeignitor [http://codeigniter.com](http://codeigniter.com) to make API calls to the 
+	This is a library for the php framework Codeignitor http://codeigniter.com to make API calls to the 
 	Authorize.net CIM interface. This is free to use. It would be nice if you make updates if you submitted them.
 	
 	The best way to understand this library is to read through and run the authorizecim.php controller. Also read through 
