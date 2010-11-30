@@ -8,16 +8,18 @@
 		- http://www.communitymx.com/content/article.cfm?page=4&cid=FDB14
 	
 ## About
-	This is a library for the php framework Codeignitor http://codeigniter.com to make API calls to the Authorize.net CIM interface.
-	This is free to use. It would be nice if you make updates if you submitted them.
+	This is a library for the php framework Codeignitor http://codeigniter.com to make API calls to the Authorize.net CIM 
+	interface. This is free to use. It would be nice if you make updates if you submitted them.
 	
-	The best way to understand this library is to read through and run the authorizecim.php controller. Also read through the 100+ pages of 
-	the Authorize.net CIM and AIM documents. This library is mostly complete. Every call is not tested against the CIM spec. The CIM spec is 
-	100+ pages long. If something is missing and you would like us to add that feature just make a request on the gitHub issues section.
+	The best way to understand this library is to read through and run the authorizecim.php controller. Also read through 
+	the 100+ pages of the Authorize.net CIM and AIM documents. This library is mostly complete. Every call is not tested 
+	against the CIM spec. The CIM spec is 100+ pages long. If something is missing and you would like us to add that feature 
+	just make a request on the gitHub issues section.
 	
-	The CIM works in three sections. You create a profile for the customer. Then you attached a payment profile, and then a shipping profile to 
-	the customer profile. One customer profile can have many payment and shipping profiles attached to it. To make a credit card transaction 
-	you need to set the customer profile, payment profile, shipping profile then create a transaction profile.
+	The CIM works in three sections. You create a profile for the customer. Then you attached a payment profile, and then a 
+	shipping profile to the customer profile. One customer profile can have many payment and shipping profiles attached to it. 
+	To make a credit card transaction you need to set the customer profile, payment profile, shipping profile then create a 
+	transaction profile.
 	
 
 ## Install
