@@ -3,6 +3,10 @@
 By: Spicer Matthews <spicer@cloudmanic.com>
 Company: Cloudmanic Labs, LLC
 Website: http://www.cloudmanic.com
+
+Based On Work From: 
+- John Conde <johnny@johnconde.net>
+- http://www.communitymx.com/content/article.cfm?page=4&cid=FDB14
 */
 
 class AuthorizeCimLib
