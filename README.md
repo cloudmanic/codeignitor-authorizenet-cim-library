@@ -1,7 +1,7 @@
 ## Author(s) 
 	Spicer Matthews <spicer@cloudmanic.com>
 	Cloudmanic Labs, LLC
-	http://www.cloudmanic.com
+	<a href="http://www.cloudmanic.com">http://www.cloudmanic.com</a>
 	
 	Based On Work From: 
 		- John Conde <johnny@johnconde.net>
