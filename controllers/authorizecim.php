@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class AuthorizeCim extends Controller
+class AuthorizeCim extends CI_Controller
 {	
 	public $data = array();
 	
